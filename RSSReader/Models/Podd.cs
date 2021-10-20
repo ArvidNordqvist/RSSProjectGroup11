@@ -1,22 +1,21 @@
 ﻿using System;
+using System.Xml.Serialization;
 
-
-namespace RSS_Läsare
+namespace Models
 {
     [XmlInclude(typeof(Podd))]
 
-    public class Podd
+    public class Podd : Kategori
     {
         public string Name { get; set; }
         public int Avsnitt { get; set; }
         public int Frekvens { get; set; }
-        public string Kategori { get; set; }
         public Podd(string name, int avsnitt, int frekvens, string kategori)
+            : base(kategori)
         {
             Name = name;
             Avsnitt = avsnitt;
             Frekvens = frekvens;
-            Kategori = kategori;
         }
 
     }
