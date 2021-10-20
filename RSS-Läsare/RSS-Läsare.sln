@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "RSS-Läsare\Models.csproj", "{C354A536-41D5-4973-8C54-3E34B8FADED7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSS-Läsare", "RSS-Läsare\RSS-Läsare.csproj", "{C354A536-41D5-4973-8C54-3E34B8FADED7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{E10C6FBC-BB00-47C3-B444-71B104E670E1}"
 EndProject
